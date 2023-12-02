@@ -1,0 +1,22 @@
+/* color pallete: https://colorhunt.co/palette/363062435585818fb4f5e8c7 */
+:root {
+    --bs-tertiary-bg-rgb: #435585;
+    --bs-navbar-active-color: white;
+}
+
+nav {
+    background-color: var(--bs-tertiary-bg-rgb);
+    
+}
+
+a.nav-link, a.nav-link.active{
+    /* color: aliceblue; */
+}
+
+body {
+    background-color: #F5E8C7;
+}
+
+.carousel-item img {
+    height: 400px;
+}
