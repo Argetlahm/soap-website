@@ -1,7 +1,9 @@
 /* color pallete: https://colorhunt.co/palette/363062435585818fb4f5e8c7 */
 :root {
-    --bs-tertiary-bg-rgb: #435585;
-    --bs-navbar-active-color: white;
+    --bs-tertiary-bg-rgb: rgb(67, 85, 133);
+    --bs-emphasis-color-rgb: rgb(129, 143, 180);
+    /* --bs-navbar-toggler-border-color: white; */
+    /* --bs-navbar-active-color: white; */
 }
 
 nav {
@@ -9,8 +11,27 @@ nav {
     
 }
 
-a.nav-link, a.nav-link.active{
-    /* color: aliceblue; */
+button.navbar-toggler:focus,  button.navbar-toggler:active, .navbar-toggler-icon:focus{
+    outline: 1px white;
+}
+
+.navbar-toggler-custom:focus {
+    box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width) #F5E8C7;
+}
+
+.navbar-toggler-icon-custom {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.nav-link, .nav-link.active, .navbar-nav .nav-link.active{
+    color: white;
 }
 
 body {
