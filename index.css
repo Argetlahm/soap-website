@@ -1,9 +1,15 @@
 /* color pallete: https://colorhunt.co/palette/363062435585818fb4f5e8c7 */
+/* <a href="https://www.flaticon.com/free-icons/sustainability" title="sustainability icons">Sustainability icons created by Freepik - Flaticon</a> */
+/* <a href="https://www.flaticon.com/free-icons/sustainability" title="sustainability icons">Sustainability icons created by Freepik - Flaticon</a> */
 :root {
     --bs-tertiary-bg-rgb: rgb(67, 85, 133);
     --bs-emphasis-color-rgb: rgb(129, 143, 180);
     /* --bs-navbar-toggler-border-color: white; */
     /* --bs-navbar-active-color: white; */
+}
+
+.sgs-flex {
+   display: flex;
 }
 
 nav {
@@ -34,10 +40,29 @@ button.navbar-toggler:focus,  button.navbar-toggler:active, .navbar-toggler-icon
     color: white;
 }
 
-body {
+.card-section {
+    flex-direction: column;
+}
+
+body, .card {
     background-color: #F5E8C7;
+}
+
+.card-custom {
+    border: none;
+}
+
+.card-img-container {
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-item img {
     height: 400px;
+}
+
+.feature-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
