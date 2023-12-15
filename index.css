@@ -68,3 +68,8 @@ body, .card {
     justify-content: center;
     align-items: center;
 }
+
+
+@media only screen and (min-width: 768px) {
+    
+}
