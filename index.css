@@ -63,7 +63,7 @@ body, .card {
     height: 400px;
 }
 
-.feature-section {
+.feature-section, .testimoni-section, #testimoni .card-section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -76,6 +76,12 @@ body, .card {
 #testimoni .card {
     background-color: #818FB4;
     color: white;
+    /* margin: auto; */
+}
+
+#testimoni img {
+    width: 70px;
+    height: 70px;
 }
 
 @media only screen and (min-width: 768px) {
