@@ -14,6 +14,10 @@
    display: flex;
 }
 
+h1 {
+    display: none;
+}
+
 nav {
     background-color: var(--bs-tertiary-bg-rgb);
     
@@ -88,6 +92,23 @@ body, .card {
     display: none;
 }
 
+#testimoni .carousel-item img {
+    border-radius: 50%;
+}
+
 @media only screen and (min-width: 768px) {
+
+    #carousel-testimoni-landscape {
+        display: block;
+    }
+
+    #carousel-testimoni-portrait {
+        display: none;
+    }
+
+    #testimoni .card-section {
+        flex-direction: row;
+        gap: 20px;
+    }
     
 }
